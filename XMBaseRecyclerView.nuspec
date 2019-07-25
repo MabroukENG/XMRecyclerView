@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package >
+    <metadata>
+    <id>Xamabrouk.XMReyclerView</id>
+    <version>1.0.0</version>
+    <title>XMReyclerView</title>
+    <authors>Mabrouk Mahdhi</authors>
+    <owners>Mabrouk Mahdhi</owners>
+	<licenseUrl>https://github.com/MabroukENG/XMRecyclerView/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/MabroukENG/XMRecyclerView</projectUrl>
+    <iconUrl>http://www.xamabrouk.com/images/xamabrouk_nuget_icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Provides a generic adapter of any Recycler view that will be used in your Xamarin.Android application</description>
+    <releaseNotes>First release</releaseNotes>
+    <copyright>Copyright (c) Mabrouk Mahdhi 2019</copyright>
+    <tags>RecyclerView Android Adapter View ViewHolder CardView Xamarin Xamarin.Android</tags>
+        <dependencies>
+        <group targetFramework="MonoAndroid">
+            <dependency id="Xamarin.Android.Support.v7.RecyclerView" version="27.0.2" />
+        </group>
+    </dependencies>
+    </metadata>
+    <files>
+        
+
+        <!-- Android reference assemblies -->
+        <file src="bin\Release\Xamabrouk.XMRecyclerView.dll" target="lib\MonoAndroid10\Xamabrouk.XMRecyclerView.dll" />
+        <file src="bin\Release\Xamabrouk.XMRecyclerView.xml" target="lib\MonoAndroid10\Xamabrouk.XMRecyclerView.xml" />
+   
+    </files>
+</package>
